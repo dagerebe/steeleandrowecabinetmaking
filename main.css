@@ -107,6 +107,33 @@ body {
   font-weight: 700;
 }
 
+.form-bg {
+  background-color: white;
+}
+
+.form-holder {
+  margin-top: 3rem; 
+}
+
+.form-holder p {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.form-holder input {
+  border: 1px solid #E6D33A;
+  width: 60%;
+}
+
+.form-holder textarea {
+  border: 1px solid #E6D33A;
+  width: 60%;
+}
+
+
+
 
 /*
  * Footer
