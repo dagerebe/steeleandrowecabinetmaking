@@ -1,6 +1,91 @@
 /*
  * Globals
  */
+.bg-img {
+  background-image: url(img/background.jpg);
+  background-position: center center;
+  width: 100%;
+  height: 26rem;
+  position: absolute;
+}
+
+.title {
+  margin-top: 2rem;
+}
+
+@media (min-width: 48em) {
+.title {
+  margin-top: 11rem;
+}
+}
+
+.nav-link {
+  margin-top: 1rem;
+}
+
+@media (min-width: 48em) {
+.nav-link {
+  margin-top: 0rem;
+}
+}
+
+.submit {
+  background-color: #E6D33A;
+  color: black;
+  padding: .25rem;
+  text-transform: uppercase;
+
+}
+
+
+
+.form-bg {
+  position: relative;
+ margin-top: 10rem;
+}
+
+
+.form-holder p {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.form-holder h2 {
+  font-size: 1.75rem;
+}
+
+.form-holder h3 {
+  font-size: 1.25rem;
+}
+
+
+.form-holder input {
+  border: 1px solid #E6D33A;
+  width: 100%;
+}
+
+.form-holder textarea {
+  border: 1px solid #E6D33A;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden; 
+}
+
+footer {
+  height: 10rem;
+}
+
+.footer-text {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+
 
 
 /* Links */
@@ -106,34 +191,6 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
-.form-bg {
-  background-color: white;
-}
-
-.form-holder {
-  margin-top: 3rem; 
-}
-
-.form-holder p {
-  padding-top: 1rem;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  font-size: 1.5rem;
-}
-
-.form-holder input {
-  border: 1px solid #E6D33A;
-  width: 60%;
-}
-
-.form-holder textarea {
-  border: 1px solid #E6D33A;
-  width: 60%;
-}
-
-
-
 
 /*
  * Footer
