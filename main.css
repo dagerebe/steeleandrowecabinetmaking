@@ -64,7 +64,12 @@
 
 
 .form-holder input {
-  border: 1px solid #E6D33A;
+  border-bottom: 1px solid #E6D33A;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  background-color: transparent;
   width: 100%;
 }
 
