@@ -11,6 +11,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700|PT+Serif:400,700" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
     <link href="main.css" rel="stylesheet">
@@ -30,16 +32,16 @@
           </div>
           <div class="title">
           <h1 class="cover-heading">Cabniet and Furniture Makers</h1>
-        <p class="lead">Where quality and precision meet.</p>
+        <h3 class="lead">Where quality and precision meet.</h3>
       </div>
       </header>
 
       <main role="main" class="cover-container d-flex h-100 p-3 mx-auto flex-column inner cover">
 
 <div class="form-bg">
-      <form class="form-holder">
-        <h2>Have a idea?</h2>
-        <h3>Reach out and we can help you make it possible!</h3>
+      <form class="form-holder" method="post" action="submit_request.php" method="post">
+        <h3>Have a idea?</h3>
+        <h4>Reach out and we can help you make it possible!</h4>
         <p>First name</p>
         <input type="text" name="firstname">
         <p>Last name</p>
@@ -47,14 +49,17 @@
         <p>Email</p>
         <input type="text" name="email">
         <p>Phone Number</p>
-        <input type="text" name="phone number">
+        <input type="text" name="phonenumber">
         <p>Request</p>
         <textarea name="message" rows="5" cols="50">
         Please leave your requests here...
         </textarea>
-        <input type="submit" name="contact us" class="submit">
+        <div class="submit">
+       <button  type="submit">Send</a>
+       </div>
       </form>
 </div>
+
 
 
 
