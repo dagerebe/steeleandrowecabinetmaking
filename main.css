@@ -1,6 +1,120 @@
 /*
  * Globals
  */
+.bg-img {
+  background-image: url(img/background.jpg);
+  background-position: center center;
+  width: 100%;
+  height: 32rem;
+  position: absolute;
+}
+
+.title {
+  margin-top: 2rem;
+}
+
+.title h1 {
+	 font-family: 'Assistant', sans-serif;
+	 font-weight: 700;
+	 text-transform: uppercase;
+}
+
+.title h3 {
+	 font-family: 'PT Serif', serif;
+	 font-weight: 400;
+}
+
+@media (min-width: 48em) {
+.title {
+  margin-top: 14rem;
+}
+}
+
+.nav-link {
+  margin-top: 1rem;
+}
+
+@media (min-width: 48em) {
+.nav-link {
+  margin-top: 0rem;
+}
+}
+
+
+
+
+.form-bg {
+  position: relative;
+ margin-top: 15rem;
+}
+
+
+.form-holder p {
+  padding-top: 1.75rem;
+  padding-bottom: 0;
+  margin-bottom: .25rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.form-holder h3 {
+	font-family: 'Assistant', sans-serif;
+	 font-weight: 600;
+	 text-transform: uppercase;
+}
+
+.form-holder h4 {
+ 	 	font-family: 'Assistant', sans-serif;
+	 font-weight: 300;
+	}
+
+
+.form-holder input {
+  border-bottom: 2px solid #E6D33A;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  background-color: transparent;
+  width: 100%;
+}
+
+
+.form-holder textarea {
+  border: 2px solid #E6D33A;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden; 
+  background-color: black;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.form-holder button {
+  background-color: #fff;
+  color: black;
+  padding: .75rem 15rem;
+  text-decoration: none;
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: .25rem solid #E6D33A; 
+}
+
+.submit {
+	width: 100%;
+}
+
+footer {
+  height: 10rem;
+}
+
+.footer-text {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+
 
 
 /* Links */
@@ -44,8 +158,6 @@ body {
   -webkit-box-pack: center;
   justify-content: center;
   color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 .cover-container {
@@ -106,7 +218,6 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
 
 /*
  * Footer
